@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Showcase</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      background: #111;
+      color: white;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 50px;
+    }
+
+    .card {
+      background: #222;
+      padding: 20px;
+      border-radius: 15px;
+      width: 250px;
+      transition: 0.4s;
+      cursor: pointer;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    /* 🔥 Hover animation */
+    .card:hover {
+      transform: scale(1.1) translateY(-10px);
+      box-shadow: 0 0 20px #00ffcc;
+    }
+
+    .card h2 {
+      margin-top: 15px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #ccc;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>🔥 My Product Showcase 🔥</h1>
+
+<div class="container">
+
+  <div class="card">
+    <img src="https://via.placeholder.com/250">
+    <h2>Product 1</h2>
+    <p>Best quality product</p>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/250">
+    <h2>Product 2</h2>
+    <p>Premium design</p>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/250">
+    <h2>Product 3</h2>
+    <p>Affordable price</p>
+  </div>
+
+</div>
+
+</body>
+</html>
